@@ -6,15 +6,24 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        String a = "01033334444";
+        int[][] a = new int[][]{{1},{2}};
+        int[][] b = new int[][]{{3},{4}};
 
 
+        int[][] z = new PM_12950().solution(a,b);
 
-        String z = new PM_12948().solution(a);
-        System.out.println(z);
+        //        System.out.println(z);
 
 //        for(int i=0;i<z.length;i++){
 //            System.out.println(z[i]);
 //        }
+
+        for(int i=0;i<z.length;i++){
+            for(int j=0;j<z[0].length;j++){
+                System.out.println(z[i][j]);
+            }
+        }
+
+
     }
 }
