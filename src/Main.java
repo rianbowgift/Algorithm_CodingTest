@@ -6,15 +6,15 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        int a =5;
-        int b = 24;
+        String a = "01033334444";
 
 
-        String z = new PM_12901().solution(a,b);
+
+        String z = new PM_12948().solution(a);
         System.out.println(z);
 
-//        for(int i=0;i<c.length;i++){
-//            System.out.println(c[i]);
+//        for(int i=0;i<z.length;i++){
+//            System.out.println(z[i]);
 //        }
     }
 }
