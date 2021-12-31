@@ -6,23 +6,29 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] a = new int[][]{{1},{2}};
-        int[][] b = new int[][]{{3},{4}};
+        int[] a = new int[]{4,3,2,1,6,5};
 
 
-        int[][] z = new PM_12950().solution(a,b);
 
-        //        System.out.println(z);
+        int[] z = new PM_12935().solution(a);
 
-//        for(int i=0;i<z.length;i++){
-//            System.out.println(z[i]);
-//        }
+
+
+//        System.out.println(z);
+
+
 
         for(int i=0;i<z.length;i++){
-            for(int j=0;j<z[0].length;j++){
-                System.out.println(z[i][j]);
-            }
+            System.out.println(z[i]);
         }
+
+
+//
+//        for(int i=0;i<z.length;i++){
+//            for(int j=0;j<z[0].length;j++){
+//                System.out.println(z[i][j]);
+//            }
+//        }
 
 
     }
