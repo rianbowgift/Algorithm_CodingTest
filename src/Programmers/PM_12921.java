@@ -3,52 +3,56 @@ package Programmers;
 import java.util.ArrayList;
 
 //https://programmers.co.kr/learn/courses/30/lessons/12921
+//에라토니스의체 알고리즘 사용
 public class PM_12921 {
 
     public int solution(int n) {
         int answer = 0;
-        int mul = 1;    //제곱근 구하기
+        int[] list = new int[n];
+        int temp =0;
+        int original = 0;
 
-        for(int i=2; i<=n; i++){
-            if(i==2){
-                answer++;
+        for(int i=0; i<n;i++){      //각배열에 값넣음
+            list[i] = i+1;  //2부터시작
+        }
+
+
+        for(int i=0; i<list.length;i++){
+            if(list[i]==-1){    //소수가 아니라고 판별된수는 바로패스
                 continue;
-            }
-            if(i%2==0){     //1번조건. 모든짝수는 소수가 아니므로 패스한다. 2배빨라짐
-                continue;
-            }
-            while(true){        //2번조건 1단계. 제곱근을 구하자. 예를들어 100이라면 10. 101이라면 11. 99라면 100
-                if(mul*mul>i){  // 현재 검사하는 숫자보다 제곱한게 커지면
-                    mul++;
-                    break;
-                }else{  //아니면 1씩증가
-                    mul++;
-                }
-            }
-
-
-
-            for(int j=1; j<mul;j++){
-                if(j==1){
+            }else{
+                if(list[i]==1){ //1은패스. 2부터시작
+                    list[i] = -1;
                     continue;
                 }
-                if(i%j==0){ //나눠지면 소수아님
-                    break;
+                original = list[i];
+                while (true){
+                    if(temp+original<=list.length){
+                        if(temp==0){
+                            temp+=original;
+                        }else{
+                            list[i+temp]=-1;
+                            temp+=original;
+                        }
+                    }else{
+                        break;
+                    }
                 }
-                if(j==mul-1){   //끝까지 루프문 못빠저나갔으면 소수임
-                    answer++;
-                    //System.out.println(i);
-                }
+
+
             }
-
-
-            mul=1;
-
-
+            temp=0;
+            original=0;
 
         }
 
-        //System.out.println(answer);
+        for(int i=0;i<list.length;i++){
+            if(list[i]!=-1){
+                answer++;
+            }
+        }
+
+
 
 
 

@@ -6,10 +6,11 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        int a = 11;
+        int a =5;
+        int b = 24;
 
 
-        long z = new PM_12921().solution(a);
+        String z = new PM_12901().solution(a,b);
         System.out.println(z);
 
 //        for(int i=0;i<c.length;i++){
