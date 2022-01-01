@@ -6,23 +6,22 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        String[] a = new String[]{"abzcd","cdzab","abzfg","abzaa","abzbb","bbzaa"};
-        //String[] a = new String[]{"abzcd","abzfg","abzaa","abzbb"};
-        int b = 2;
+        String a = "qwer";
 
 
 
-        String[] z = new PM_12915().solution(a,b);
+
+        String z = new PM_12903().solution(a);
 
 
 
-//        System.out.println(z);
+        System.out.println(z);
 
 
-
-        for(int i=0;i<z.length;i++){
-            System.out.println(z[i]);
-        }
+//
+//        for(int i=0;i<z.length;i++){
+//            System.out.println(z[i]);
+//        }
 
 
 //
