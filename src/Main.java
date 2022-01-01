@@ -6,12 +6,12 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        String a = "qwer";
+        String a = 	"1D2S#10S";
 
 
 
 
-        String z = new PM_12903().solution(a);
+        int z = new PM_17682().solution(a);
 
 
 
