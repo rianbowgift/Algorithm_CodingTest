@@ -1,6 +1,8 @@
 package Programmers;
 //https://programmers.co.kr/learn/courses/30/lessons/12932
+//자리수 바꾸기 자리수 변경
 public class PM_12932 {
+
     public long[] solution(long n) {
         long[] answer_temp = new long[12];
         long[] answer;

@@ -6,22 +6,22 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        long a = 12345;
+        long a = 345234;
 
 
 
 
-        long[] z = new PM_12932().solution(a);
+        long z = new PM_12933().solution(a);
 
 
 
-//        System.out.println(z);
+        System.out.println(z);
 
 
 
-        for(int i=0;i<z.length;i++){
-            System.out.println(z[i]);
-        }
+//        for(int i=0;i<z.length;i++){
+//            System.out.println(z[i]);
+//        }
 
 
 //
