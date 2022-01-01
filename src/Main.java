@@ -6,12 +6,12 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        long a = 345234;
+        String a = "a B z";
+        int b = 4;
 
 
 
-
-        long z = new PM_12933().solution(a);
+        String z = new PM_12926().solution(a,b);
 
 
 
