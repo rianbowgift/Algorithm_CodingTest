@@ -6,11 +6,12 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        int[] a = new int[]{4,3,2,1,6,5};
+        int a = 3;
+        int b = 12;
 
 
 
-        int[] z = new PM_12935().solution(a);
+        int[] z = new PM_12940().solution(a,b);
 
 
 
