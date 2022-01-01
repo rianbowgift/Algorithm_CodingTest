@@ -6,12 +6,12 @@ import Programmers.*;
 
 public class Main {
     public static void main(String[] args) {
-        int a = 3;
-        int b = 12;
+        long a = 12345;
 
 
 
-        int[] z = new PM_12940().solution(a,b);
+
+        long[] z = new PM_12932().solution(a);
 
 
 
