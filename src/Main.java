@@ -1,4 +1,5 @@
-import Programmers.Level1.Failure.PM_42576;
+
+import Programmers.Level1.Success.PM_72410;
 //import Baekjoon.*;
 //import CodeForces.*;
 
@@ -6,19 +7,19 @@ import Programmers.Level1.Failure.PM_42576;
 
 public class Main {
     public static void main(String[] args) {
-        String[] a =new String[]{"mislav", "stanko", "mislav", "ana"};
-        String[] b = new String[]{"stanko", "ana", "mislav"};
+        String a = "abcdefghijklmn.p";
 
 
 
 
-        String z = new PM_42576().solution(a,b);
+
+        String z = new PM_72410().solution(a);
 
 
 
         System.out.println(z);
 
-
+//
 //
 //        for(int i=0;i<z.length;i++){
 //            System.out.println(z[i]);
