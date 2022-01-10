@@ -1,5 +1,6 @@
 
 import Programmers.Level1.Success.PM_17681;
+import Programmers.Level2.PM_12953;
 //import Baekjoon.*;
 //import CodeForces.*;
 
@@ -7,25 +8,24 @@ import Programmers.Level1.Success.PM_17681;
 
 public class Main {
     public static void main(String[] args) {
-        int a = 5;
-        int[] b = new int[]{9, 20, 28, 18, 11};
-        int[] c = new int[]{30, 1, 21, 17, 28};
+        int[] a = new int[]{2,6,8,14};
 
 
 
 
-        String[] z = new PM_17681().solution(a,b,c);
+
+        int z = new PM_12953().solution(a);
 
 
 
- //       System.out.println(z);
+        System.out.println(z);
 
 
 
-
-        for(int i=0;i<z.length;i++){
-            System.out.println(z[i]);
-        }
+//
+//        for(int i=0;i<z.length;i++){
+//            System.out.println(z[i]);
+//        }
 
 
 //
