@@ -16,7 +16,18 @@ public class PM_12945 {
 //        F(4) = F(2) + F(3) = 1 + 2 = 3
 //        F(5) = F(3) + F(4) = 2 + 3 = 5
 
-        answer = recursion(n);
+        answer = recursion(n)%1234567;
+
+
+        while(true){
+
+
+        }
+
+
+
+
+
 
 
         return answer;
