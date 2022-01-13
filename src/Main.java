@@ -1,6 +1,6 @@
 
-import Programmers.Level2.PM_12949;
-import Programmers.Level2.Success.PM_12951;
+import Programmers.Level2.PM_12945;
+import Programmers.Level2.Success.PM_12949;
 //import Baekjoon.*;
 //import CodeForces.*;
 
@@ -8,16 +8,11 @@ import Programmers.Level2.Success.PM_12951;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] a = new int[][]{{1, 4}, {3, 2}, {4, 1}};
-        int[][] b = new int[][]{{3, 3}, {3, 3}};
-
-//        int[][] a = new int[][]{{2,3,2}, {4,2,4}, {3,1,4}};
-//        int[][] b = new int[][]{{5,4}, {2,4}, {3,1}};
+        int a = 3;
 
 
 
-
-        int[][] z = new PM_12949().solution(a,b);
+        int z = new PM_12945().solution(a);
 
 
 
