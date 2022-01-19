@@ -26,7 +26,7 @@ public class PM_12905 {
                 if(start!=-1 && end!=-1){       //스타트포인트와 엔드포인트가 모두 할당됬을때   공간계산시작
 
                     //잔여공간 확인
-                    if(end-start<i+board.length){
+                    if(end-start<board.length-i){   //잔여공간있으면
 
                     }
                 }
