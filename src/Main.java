@@ -1,5 +1,5 @@
 
-import Programmers.Level2.Failure.PM_12905;
+import Programmers.Level1.Success.PM_92334;
 //import Baekjoon.*;
 //import CodeForces.*;
 
@@ -7,22 +7,19 @@ import Programmers.Level2.Failure.PM_12905;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] a = new int[][]{{0,1,1,1},{1,1,1,1},{1,1,1,1},{0,0,1,0}};
-//            int[][] a = new int[][]{{1,1,1,1},{1,1,1,1},{1,1,1,1},{1,1,1,0}};
-//        int[][] a = new int[][]{{0,0,1,1},{1,1,1,1}};
-//        int[][] a = new int[][]{{0,1},{0,0}};
-        int z = new PM_12905().solution(a);
+        String[] a = new String[]{"muzi", "frodo", "apeach", "neo"};
+        String[] b = new String[]{"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
+        int c = 2;
+
+
+        int[] z = new PM_92334().solution(a,b,c);
+//        System.out.println(z);
 
 
 
-        System.out.println(z);
-
-
-
-//
-//        for(int i=0;i<z.length;i++){
-//            System.out.println(z[i]);
-//        }
+        for(int i=0;i<z.length;i++){
+            System.out.println(z[i]);
+        }
 
 
 //
