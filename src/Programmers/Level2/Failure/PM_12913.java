@@ -4,6 +4,8 @@ package Programmers.Level2.Failure;
 public class PM_12913 {
     public int solution(int[][] land) {
         int answer = 0;
+        int[] DP = new int[land.length];    //행의 라인수만큼의 dp필요
+        
 
 
         return answer;
