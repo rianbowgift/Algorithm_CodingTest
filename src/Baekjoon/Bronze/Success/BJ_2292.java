@@ -1,4 +1,4 @@
-package Baekjoon.Bronze;
+package Baekjoon.Bronze.Success;
 
 import java.util.Scanner;
 
@@ -16,11 +16,6 @@ public class BJ_2292 {
         int rooms = 1; //넘긴방수
         int big =0;
         int cnt = 1; //계수
-
-        if(num==1){
-            System.out.println("1");
-            return;
-        }
 
         while ( num-1>big){
             big+= 6*cnt;
