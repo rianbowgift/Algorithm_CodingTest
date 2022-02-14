@@ -11,5 +11,6 @@ public class BJ_1193 {
         int num = sc.nextInt();
 
 
+        System.out.println();
     }
 }
