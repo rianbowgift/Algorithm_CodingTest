@@ -1,8 +1,6 @@
 package Baekjoon.Bronze;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
 import java.util.StringTokenizer;
 
@@ -21,10 +19,20 @@ public class BJ_2869 {
 
 
         int sum= A-B;
-        int day= V-(sum*B);
+        int day=0;
+
+        if(V%sum==0){
+            day =V/sum;
+        }else{
+            day =(V/sum) +1;
+        }
 
 
 
+
+
+        //BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        //bw.write(day);
         System.out.println(day);
 
     }
