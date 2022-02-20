@@ -1,4 +1,4 @@
-package Baekjoon.Bronze;
+package Baekjoon.Bronze.Failure;
 
 import java.io.*;
 

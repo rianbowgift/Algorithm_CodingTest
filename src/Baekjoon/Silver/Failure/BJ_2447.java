@@ -1,4 +1,4 @@
-package Baekjoon.Silver;
+package Baekjoon.Silver.Failure;
 
 import java.util.Scanner;
 
@@ -24,12 +24,7 @@ public class BJ_2447 {
         if(n!=1){
             star(n/3);
         }
-        if(){
-            System.out.println("*");
-        }
-        if(){
-            System.out.println(" ");
-        }
+
 
 
     }
