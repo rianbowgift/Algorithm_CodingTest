@@ -21,7 +21,7 @@ public class PM_17680 {
 
 
 
-
+//
         for(int i=0;i<cities.length;i++){
 
 
