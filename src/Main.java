@@ -1,5 +1,5 @@
 
-import Programmers.Level2.Success.PM_60057;
+import Programmers.Level2.Success.PM_17680;
 //import Baekjoon.*;
 //import CodeForces.*;
 
@@ -8,10 +8,11 @@ import Programmers.Level2.Success.PM_60057;
 public class Main {
     public static void main(String[] args) {
 
-        String a = "a";
+        int a = 3;
+        String[] b = new String[]{"Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul"};
+        //String[] b = new String[]{"Jeju", "Jeju", "Jeju2", "Jeju3"," Jeju4","Jeju2", "Jeju"};
 
-
-        int z = new PM_60057().solution(a);
+        int z = new PM_17680().solution(a,b);
         System.out.println(z);
 
 
