@@ -1,5 +1,5 @@
 
-import Programmers.Level2.Failure.PM_12913;
+import Programmers.Level2.Success.PM_60057;
 //import Baekjoon.*;
 //import CodeForces.*;
 
@@ -8,10 +8,10 @@ import Programmers.Level2.Failure.PM_12913;
 public class Main {
     public static void main(String[] args) {
 
-        int[][] a = new  int[][]{{4, 3, 2, 1}, {2, 2, 2, 1}, {6, 6, 6, 4}, {8, 7, 6, 5}};
+        String a = "a";
 
 
-        int z = new PM_12913().solution(a);
+        int z = new PM_60057().solution(a);
         System.out.println(z);
 
 
