@@ -1,4 +1,4 @@
-package Programmers;
+package Programmers.Level1.Success;
 //https://programmers.co.kr/learn/courses/30/lessons/17678
 public class PM_17678 {
 
