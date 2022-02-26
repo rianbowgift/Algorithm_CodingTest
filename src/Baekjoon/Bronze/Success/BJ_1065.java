@@ -35,7 +35,7 @@ public class BJ_1065 {
 			}
 
 			if(sum >= C * count) {
-			//	System.out.println(count+"ȸ��Ƽ����");
+
 				count++;
 				continue;
 			}
