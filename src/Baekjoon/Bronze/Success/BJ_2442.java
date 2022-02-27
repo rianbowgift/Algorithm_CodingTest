@@ -1,4 +1,4 @@
-package Baekjoon.Bronze;
+package Baekjoon.Bronze.Success;
 //https://www.acmicpc.net/problem/2442
 
 import java.util.Scanner;
