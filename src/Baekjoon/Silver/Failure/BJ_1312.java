@@ -28,6 +28,12 @@ public class BJ_1312 {
 //        int c = sc.nextInt();
 
 
+
+
+
+
+
+
         BigDecimal x = a.divide(b,c,RoundingMode.FLOOR);
         String y = x.toString();
         //System.out.println(y);
